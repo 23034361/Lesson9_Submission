@@ -16,7 +16,7 @@ const App = () => {
 
   const URL = "https://music-playlist-186g.onrender.com/songs";
 
-  // 🎵 Get album cover based on song ID (random colorful images)
+  // 🎵Get album cover based on song ID (random colorful images)
   const getAlbumCover = (title, id) => {
     // Using Picsum Photos for random images
     return `https://picsum.photos/seed/${id}/200/200`;
